@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WASHINGTON SQUARE</title>
+  <!-- Bootstrap 4 -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <style>
+    *{ font-family: "Montserrat", sans-serif;}
+    body { background: #000; color: #fff; height: 100vh;  }
+    .company-name h1 { font-weight: 700; line-height: 1.1; }
+    .contact-info i { width: 1.5em; }
+    .social-icon { color: #fff; margin-right: .5rem; font-size: 1.25rem; }
+    .social-icon:hover { color: #ddd; }
+    h2 { font-size: 80px; }
+    p { font-size: 24px; }
+    .separator-line {
+     width: 225px;
+    background-color: white;
+    height: 1px;
+    margin-bottom: 80px;
+    display: block;
+    }
+    .blured{
+   position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 32%;
+    height: 50%;
+    /* background: red; */
+    background-image: linear-gradient(to right bottom, #000000, #040002, #010001, #2c438475, #2C4384);
+    filter: blur(1px);
+    }
+  </style>
+</head>
+<body>
+    <div class="blured"></div>
+  <div class="container h-100">
+    <div class="row h-100 align-items-center">
+      <div class="col-md-5 text-center text-md-left">
+        <div class="company-name">
+          <h1>WASHINGTON</h1>
+          <h1>SQUARE</h1>
+        </div>
+      </div>
+      <div class="col-md-7 separator pl-md-5">
+        <h2 class="">Contáctanos</h2>
+        <span class="separator-line"></span>
+        <ul class="list-unstyled contact-info">
+          <li><p><i class="fa fa-envelope"></i> administracion@washingtonsquare.mx</p></li>
+          <li class="mt-3 d-none"><i class="fas fa-map-marker-alt"></i>
+            Felix lope de vega<br>
+            Monterrey NL
+          </li>
+        </ul>
+       
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
